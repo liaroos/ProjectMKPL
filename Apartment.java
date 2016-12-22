@@ -9,15 +9,15 @@ public class Apartment {
         subject subject = new subject();
         new cash(subject);
         new cicil(subject);
-        int hargaUnit2BR = 9000000;
-        int hargaUnit1BR = 6000000;
+        int hargaUnit2BR = 12000000;
+        int hargaUnit1BR = 8000000;
         int hargaUnitStudio = 3500000;
-        int hargaUnitStudioDeluxe = 4000000;
+        int hargaUnitStudioDeluxe = 4500000;
 
-        int hargaUnit2BRVIP = 9000000 + 2000000;
-        int hargaUnit1BRVIP = 6000000 + 2000000;
+        int hargaUnit2BRVIP = 12000000 + 2000000;
+        int hargaUnit1BRVIP = 8000000 + 2000000;
         int hargaUnitStudioVIP = 3500000 + 2000000;
-        int hargaUnitStudioDeluxeVIP = 4000000 + 2000000;
+        int hargaUnitStudioDeluxeVIP = 4500000 + 2000000;
 
         System.out.println("----- APARTMENT SILVER TOWER A -----");
         System.out.println("2 Tipe Unit\n1. Small (2 Orang)\n2. Family (2-3 Orang)");
