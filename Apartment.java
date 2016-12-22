@@ -10,7 +10,7 @@ public class Apartment {
         new cash(subject);
         new cicil(subject);
         int hargaUnit2BR = 12000000;
-        int hargaUnit1BR = 8000000;
+        int hargaUnit1BR = 9000000;
         int hargaUnitStudio = 3500000;
         int hargaUnitStudioDeluxe = 4500000;
 
