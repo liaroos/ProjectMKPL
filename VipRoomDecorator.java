@@ -12,6 +12,6 @@ public class VipRoomDecorator extends FasilitasDecorator {
     }
 
     private void setFurniture(Unit decoratedRoom) {
-        System.out.println("Tambahan untuk VIP : Living room set");
+        System.out.println("Tambahan untuk VIP : Bed room set");
     }
 }
