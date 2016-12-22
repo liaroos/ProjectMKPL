@@ -2,3 +2,44 @@ ini coba branchnya kbe lol om toletoaeltk
 avgfn hoyhou
 asdaldsjn
 
+1. Bikin project baru
+2. bikin file fragment (navigasi, X, Y)
+3. ke java fragmentNavigasi.java, fragmentX & Y juga
+ubah return2nya, jadi rootview
+
+4. ke XML navigasi, bikin tombol A-B
+5. ke XML fragment X, bikin layout2nya
+fragment Y juga gitu
+
+6. ke activity_main.xml
+fragment navigasi kan statis, jadi pake xml aja
+untuk contentnya dinamis, jadi pake code
+
+7. masuk ke mainacivity.java
+masukin fragment ke containernya
+FragmentManager pilih yang support.v4 !!
+(STEPNYA)
+a. ambil containter dari layout
+b. panggil fragment manager
+c. buat fragmentx
+d. begin fragment
+e. masukin fragment x ke kontainter
+f. commit transaction
+
+8. masuk ke fragmentnavigasi.java
+bikin interface FragmentChangerInterface
+
+9. masuk ke mainactivity.java
+ambil fragment navigasi dari frag manager
+masukkin activiti ke fragment navigasi
+
+10. ke fragmentnavigasi.java
+di method onCreateView tambahi
+this.buttonA blablabla
+this.butoon A.setonClickListener
+
+thisnya alt+enter, tambah menthod onClick
+pindah ke bawah methodnya
+hasis itu kasi kondisi switch case
+
+DONE !!
