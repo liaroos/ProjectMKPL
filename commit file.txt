@@ -7,9 +7,13 @@ asdaldsjn
 3. ke java fragmentNavigasi.java, fragmentX & Y juga
 ubah return2nya, jadi rootview
 
+nambah disiini
+
 4. ke XML navigasi, bikin tombol A-B
 5. ke XML fragment X, bikin layout2nya
 fragment Y juga gitu
+
+disini
 
 6. ke activity_main.xml
 fragment navigasi kan statis, jadi pake xml aja
@@ -23,6 +27,7 @@ a. ambil containter dari layout
 b. panggil fragment manager
 c. buat fragmentx
 d. begin fragment
+disiini
 e. masukin fragment x ke kontainter
 f. commit transaction
 
